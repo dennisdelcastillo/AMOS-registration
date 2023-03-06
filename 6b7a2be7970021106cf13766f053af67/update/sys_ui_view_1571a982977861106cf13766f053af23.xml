@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Dennis_del</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-05 07:06:06</sys_created_on>
+        <sys_id>1571a982977861106cf13766f053af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dennis del</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>sys_ui_view_1571a982977861106cf13766f053af23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-05 07:06:06</sys_updated_on>
+        <title>Dennis del</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Dashboard - New Tab">949afde097ace1106cf13766f053afb2</grid_canvas>
+        <height>3</height>
+        <portal_widget display_value="Created 2023-01-18 23:00:21">c31d7d6497ace1106cf13766f053afcb</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-19 07:00:21</sys_created_on>
+        <sys_id>cf1d7d6497ace1106cf13766f053afcd</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>949afde097ace1106cf13766f053afb2</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_cf1d7d6497ace1106cf13766f053afcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 07:15:57</sys_updated_on>
+        <width>7</width>
+    </sys_grid_canvas_pane>
+</record_update>

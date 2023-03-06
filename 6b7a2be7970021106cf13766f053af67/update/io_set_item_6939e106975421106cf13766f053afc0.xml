@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <sc_cat_item display_value="Register Stock Item">c5e8e5c2975421106cf13766f053af6f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 11:08:36</sys_created_on>
+        <sys_id>6939e106975421106cf13766f053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock Item.Register Stock Item</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>io_set_item_6939e106975421106cf13766f053afc0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 11:55:16</sys_updated_on>
+        <variable_set display_value="Stock Item">fa9d9c0e971021106cf13766f053afa4</variable_set>
+    </io_set_item>
+</record_update>

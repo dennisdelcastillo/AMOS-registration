@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>assignment_group</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>AMOS_Register Assigned To</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var gaAssignedTo = new GlideAjax('AmosUtils');
+    gaAssignedTo.addParam('sysparm_name', 'setAssignedTo');
+    gaAssignedTo.addParam('sysparm_assignmentGroup', newValue);
+    gaAssignedTo.getXMLAnswer(assignedToResult);
+
+    function assignedToResult(response) {
+        g_form.setValue('assigned_to', response);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-19 11:21:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>acd7fe2097a025106cf13766f053af85</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AMOS_Register Assigned To</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>sys_script_client_acd7fe2097a025106cf13766f053af85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 11:22:20</sys_updated_on>
+        <table>x_675294_amos_regi_register</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</application>
+        <file_path/>
+        <instance_id>f770ab7fdb855d903050ac44d49619ad</instance_id>
+        <instance_name>dev131041</instance_name>
+        <name>sys_script_client_acd7fe2097a025106cf13766f053af85</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;assignment_group&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;AMOS_Register Assigned To&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var gaAssignedTo = new GlideAjax('AmosUtils');
+    gaAssignedTo.addParam('sysparm_name', 'setAssignedTo');
+    gaAssignedTo.addParam('sysparm_assignmentGroup', newValue);
+    gaAssignedTo.getXMLAnswer(assignedToResult);
+
+    function assignedToResult(response) {
+        g_form.setValue('assigned_to', response);
+    }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-19 11:21:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;acd7fe2097a025106cf13766f053af85&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;AMOS_Register Assigned To&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AMOS registration" source="x_675294_amos_regi"&gt;6b7a2be7970021106cf13766f053af67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AMOS registration"&gt;6b7a2be7970021106cf13766f053af67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_acd7fe2097a025106cf13766f053af85&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-19 11:22:20&lt;/sys_updated_on&gt;&lt;table&gt;x_675294_amos_regi_register&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1079775022</payload_hash>
+        <record_name>AMOS_Register Assigned To</record_name>
+        <reverted_from/>
+        <source>ca2e6d90975021106cf13766f053af6e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-19 11:22:20</sys_created_on>
+        <sys_id>3419726097a025106cf13766f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185c9c3f5000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 11:22:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3c197260ada025102c1bf489e836ca7b</update_guid>
+        <update_guid_history>3c197260ada025102c1bf489e836ca7b:1079775022,2fc872ecf66025109e1bd95d0ec64090:1714545549</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-19 11:42:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6026d8ab92f740e886cdda9d39850c84</sys_id>
+        <sys_metadata>acd7fe2097a025106cf13766f053af85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMOS_Register Assigned To</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_parent display_value="Register">6bcd6beb970021106cf13766f053af92</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_scope_delete display_value="">02e527428c494f24866e7887ac7b44b9</sys_scope_delete>
+        <sys_update_name>sys_script_client_acd7fe2097a025106cf13766f053af85</sys_update_name>
+        <sys_update_version display_value="sys_script_client_acd7fe2097a025106cf13766f053af85">3419726097a025106cf13766f053af7c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 11:42:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

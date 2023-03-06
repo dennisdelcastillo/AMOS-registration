@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>500</order>
+        <sc_cat_item display_value="Request">04b6d046971021106cf13766f053afda</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 05:39:37</sys_created_on>
+        <sys_id>a17d540e971021106cf13766f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock Item.Request</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>io_set_item_a17d540e971021106cf13766f053af80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 05:39:37</sys_updated_on>
+        <variable_set display_value="Stock Item">fa9d9c0e971021106cf13766f053afa4</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</application>
+        <file_path/>
+        <instance_id>f770ab7fdb855d903050ac44d49619ad</instance_id>
+        <instance_name>dev131041</instance_name>
+        <name>io_set_item_a17d540e971021106cf13766f053af80</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>500</order><sc_cat_item display_value="Request">04b6d046971021106cf13766f053afda</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-11 05:39:37</sys_created_on><sys_id>a17d540e971021106cf13766f053af80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Stock Item.Request</sys_name><sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package><sys_policy/><sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope><sys_update_name>io_set_item_a17d540e971021106cf13766f053af80</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-11 05:39:37</sys_updated_on><variable_set display_value="Stock Item">fa9d9c0e971021106cf13766f053afa4</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1593132749</payload_hash>
+        <record_name>Stock Item.Request</record_name>
+        <reverted_from/>
+        <source>ca2e6d90975021106cf13766f053af6e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 05:39:37</sys_created_on>
+        <sys_id>eaeddcca971021106cf13766f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1859f574fca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 05:39:37</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>26eddccaab1021102e1f34c4f5343875</update_guid>
+        <update_guid_history>26eddccaab1021102e1f34c4f5343875:1593132749</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Stock Item.Request">142865c2975421106cf13766f053af27</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 11:03:51</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>5f4e954e2f394b4abe014991eab4a164</sys_id>
+        <sys_metadata>a17d540e971021106cf13766f053af80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock Item.Request</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_scope_delete display_value="">02e527428c494f24866e7887ac7b44b9</sys_scope_delete>
+        <sys_update_name>io_set_item_a17d540e971021106cf13766f053af80</sys_update_name>
+        <sys_update_version display_value="io_set_item_a17d540e971021106cf13766f053af80">eaeddcca971021106cf13766f053af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-11 11:03:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

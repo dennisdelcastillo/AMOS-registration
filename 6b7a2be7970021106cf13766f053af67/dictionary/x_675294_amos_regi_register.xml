@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" db_object_id="6bcd6beb970021106cf13766f053af92" extends="task" label="Register" max_length="40" name="x_675294_amos_regi_register" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" mandatory="true" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Deck" value="deck"/>
+                <element inactive_on_update="false" label="Engine" value="engine"/>
+                <element inactive_on_update="false" label="Hotel" value="hotel"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vessel" mandatory="true" max_length="40" name="vessel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Celestyal Cristal" value="celestyal_cristal"/>
+                <element inactive_on_update="false" label="Celestyal Olympia" value="celestyal_olympia"/>
+            </choice>
+        </element>
+    </element>
+</database>
