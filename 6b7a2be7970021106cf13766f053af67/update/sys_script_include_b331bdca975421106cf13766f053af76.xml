@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_675294_amos_regi.AmosUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AmosUtils</name>
+        <script><![CDATA[var AmosUtils = Class.create();
+AmosUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    registerSysID: function() {
+        var uri = decodeURIComponent(gs.action.getGlideURI());
+        uri = uri.substring(uri.length - 32);
+        return uri;
+    },
+
+    stockItemComponentName: function() {
+        var grComponent = new GlideRecord('x_675294_amos_regi_component');
+
+        if (grComponent.get(this.getParameter('sysparm_componentNumber'))) {
+            return grComponent.component_name;
+        }
+    },
+
+    type: 'AmosUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 11:48:37</sys_created_on>
+        <sys_id>b331bdca975421106cf13766f053af76</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>AmosUtils</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>sys_script_include_b331bdca975421106cf13766f053af76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 11:42:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

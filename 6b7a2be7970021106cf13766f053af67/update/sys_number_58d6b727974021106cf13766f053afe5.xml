@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_675294_amos_regi_component">x_675294_amos_regi_component</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>AMC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 03:02:28</sys_created_on>
+        <sys_id>58d6b727974021106cf13766f053afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AMC</sys_name>
+        <sys_package display_value="AMOS registration" source="x_675294_amos_regi">6b7a2be7970021106cf13766f053af67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMOS registration">6b7a2be7970021106cf13766f053af67</sys_scope>
+        <sys_update_name>sys_number_58d6b727974021106cf13766f053afe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 01:00:37</sys_updated_on>
+    </sys_number>
+</record_update>

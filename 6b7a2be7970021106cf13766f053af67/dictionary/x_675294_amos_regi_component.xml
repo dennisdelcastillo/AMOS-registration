@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f646b3e3974021106cf13766f053af4e" extends="x_675294_amos_regi_register" label="Component" max_length="40" name="x_675294_amos_regi_component" type="collection">
+        <element label="Component Name" max_length="40" name="component_name" type="string"/>
+        <element label="Component Number" max_length="40" name="component_number" type="string"/>
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Serial number" max_length="40" name="serial_number" type="string"/>
+    </element>
+</database>

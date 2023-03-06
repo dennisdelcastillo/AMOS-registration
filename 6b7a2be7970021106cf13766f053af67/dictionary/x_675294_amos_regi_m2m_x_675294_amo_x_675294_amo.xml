@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0db8ca1c979021106cf13766f053af19" label="x_675294_amos_regi_m2m_Registers_Stock Items" max_length="40" name="x_675294_amos_regi_m2m_x_675294_amo_x_675294_amo" type="collection">
+        <element attributes="encode_utf8=false" label="Registers" max_length="32" name="x_675294_amos_regi_register" reference="x_675294_amos_regi_register" type="reference"/>
+        <element attributes="encode_utf8=false" label="Stock Items" max_length="32" name="x_675294_amos_regi_stock_item" reference="x_675294_amos_regi_stock_item" type="reference"/>
+        <index name="index">
+            <element name="x_675294_amos_regi_register"/>
+        </index>
+        <index name="index2">
+            <element name="x_675294_amos_regi_stock_item"/>
+        </index>
+    </element>
+</database>
